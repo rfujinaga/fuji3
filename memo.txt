@@ -1,0 +1,43 @@
+・Authentication
+    掴んでいるセッションのPrincipalの詳細情報をSecurityContextHolderに渡すためのオブジェクト
+
+・void
+    返り値の無いメソッドに使用
+
+・staticメソッド
+    newを使わずに呼び出すことができる。
+    インスタンスメソッドやインスタンス変数を用いての処理はできない
+
+・@Configuration
+    Configurationクラスであることを指す
+    特定のコンピュータ・アプリケーション・リソースに適用できる構成ファイルのこと。このクラスは継承できない。
+
+・@EnableWebSecurity
+    Configurationクラスに追加することでセキュリティ構成を定義できるようになる。
+
+・@Autowired
+    Springのオブジェクトの中から、適切なものを変数に自動でセットする為にインスタンス変数に付けるアノテーション
+    setter getter省略可能
+
+・@Override
+    スーパークラスで定義されたメソッドを@Overrideを付記したメソッドで動作を上書きできる。
+    親クラスで定義されているメソッドを、子クラスで再度定義すること
+    メソッド名、引数の数、引数の型、引数の並び順、戻り値の型を全て親クラスのメソッドと揃える。
+    親クラスのメソッドはメソッドをprivate以外で定義する。
+
+・Principal
+    認証が完了したあと，認証したユーザIDは，Principalオブジェクト（java.security.Principal）としてSubjectに格納
+
+・interface
+    定数とメソッド名のみ定義可能。
+    定義する変数は｢public static final｣がつくものとして、定数として扱われる。
+    メソッドの実装が必須となる
+
+・implements
+    interfaceを継承してクラス定義をする際に用いる
+
+・defaultメソッド
+    実装クラスの側で明示的に実装されなかった場合に、既定で適用されるメソッド
+
+・アノテーションいろいろ
+　https://qiita.com/KevinFQ/items/abc7369cb07eb4b9ae29
